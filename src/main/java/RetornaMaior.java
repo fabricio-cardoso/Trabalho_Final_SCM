@@ -16,7 +16,7 @@ public class RetornaMaior {
 		System.out.println("Digite outro numero: ");
 		num2 = in.nextInt();
 		
-		System.out.println("O maior numero é: "+maior(num1, num2));
+		System.out.println("O maior numero entre "+num1+ " e " +num2+" é: " +maior(num1, num2));
 		System.out.println("Obrigado por utilizar o programa!");
 	}
 	public static int maior(int a,int b){
